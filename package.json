@@ -1,0 +1,31 @@
+{
+  "name": "passwordhelper",
+  "version": "1.0.0",
+  "description": "Secure your passwords.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndreiBalan-dev/PasswordHelper.git"
+  },
+  "keywords": [
+    "secure",
+    "password",
+    "generator"
+  ],
+  "author": "Balan Andrei",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndreiBalan-dev/PasswordHelper/issues"
+  },
+  "homepage": "https://github.com/AndreiBalan-dev/PasswordHelper#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "chalk": "^4.1.2",
+    "check-password-strength": "^2.0.5",
+    "generate-password": "^1.7.0",
+    "prompt-sync": "^4.2.0"
+  }
+}
