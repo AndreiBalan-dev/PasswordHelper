@@ -179,3 +179,5 @@ node_modules/supports-color/index.js
 node_modules/supports-color/license
 node_modules/supports-color/package.json
 node_modules/supports-color/readme.md
+*.exe
+*.bat
