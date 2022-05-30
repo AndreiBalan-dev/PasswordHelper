@@ -14,9 +14,11 @@ Rularea programului se face prin executarea fișierului **PasswordHelper.bat** s
 2. Folosești comandă **CD** pentru a schimba directorul funcțional  iar apoi scrie **node .** sau **node index.js** pentru a rula aplicația (imaginea 2). Folosind acest mod de deschidere este recomandat întrucât consola nu se va mai închide după folosire, acest fapt împiedicând rularea multiplă a fișierului ".bat". 
 
 Imaginea 1:
+
 ![imaginea 1](https://i.imgur.com/GZ4hzEc.png)
 
 Imaginea 2:
+
 ![enter image description here](https://i.imgur.com/RVOhjHc.png)
 
 ## Erori
