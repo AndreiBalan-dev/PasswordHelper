@@ -15,6 +15,7 @@ Rularea programului se face prin executarea fișierului **PasswordHelper.bat** s
 
 Imaginea 1:
 ![imaginea 1](https://i.imgur.com/GZ4hzEc.png)
+
 Imaginea 2:
 ![enter image description here](https://i.imgur.com/RVOhjHc.png)
 
