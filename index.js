@@ -146,10 +146,10 @@ function notEnoughChars() {
 }
 
 function input(option) {
-    let options = [1, 2, 3];
+    let options = [1, 2];
     option = parseInt(option);
     if (typeof option != "number" || !options.includes(option)) {
-        console.log(chalk.red("Please input a number 1-3"));
+        console.log(chalk.red("Please input a number 1-2"));
         return read();
     }
     switch (parseInt(option)) {
