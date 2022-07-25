@@ -222,7 +222,7 @@ function input(option) {
             break;
         case 2:
             let password = passPassword();
-            console.log(chalk.green(`\nThe rating of my algorithm is: ${verifyPassword(password)}\nThe rating of another algorithm is: ${passwordStrength(password, [
+            console.log(chalk.green(`\nThe rating of your password is: ${verifyPassword(password)}\nThe rating of your password variety is: ${passwordStrength(password, [
                 {
                   id: 0,
                   value: "Too weak",
@@ -248,8 +248,8 @@ function input(option) {
                   minLength: 10
                 }
               ]).value} ${grey("(source: www.npmjs.com/package/check-password-strength)")}`))
-              console.log(orange("\nIf the rating of my algorithm is " + chalk.greenBright("500") + " or above, and the rating of the other algorithm is " + chalk.greenBright("Medium") + " or above, then your password should be pretty decent."))
-              console.log(chalk.red("Attention: The algorithms do not check for dictionary words or common passwords. Make sure you avoid those type of passwords."))
+              console.log(orange("\nA rating of " + chalk.greenBright("500") + " and above means your password is not very weak. Be aware this does not check for dictionary words."))
+              console.log(orange("A rating of " + chalk.greenBright("Medium") + " or above means your password has good enough variety characters."))
     }
 };
 
